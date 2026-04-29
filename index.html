@@ -4,21 +4,53 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Antima Dwivedi</title>
 
+  <!-- CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/bootstrap-theme.css" rel="stylesheet">
   <link rel="stylesheet" href="css/swiper.min.css">
   <link href="css/style.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700" rel="stylesheet">
 </head>
 
 <body>
 
-<header class="hero">
+<!-- HERO SECTION -->
+<header class="hero" id="home">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-md-offset-6 col-xs-12">
+      
+      <!-- LEFT SIDE (TEXT) -->
+      <div class="col-md-6 col-xs-12">
+        <div class="hero-text">
+          <h1>Hi 👋 I'm Antima Dwivedi</h1>
+          <h3>Backend Developer | Java | Spring Boot | REST APIs</h3>
 
+          <p>
+            I design and build scalable backend systems powering real-world applications,
+            with strong experience in API development, system optimization, and production issue handling.
+          </p>
+
+          <!-- 🔥 COOL TAGLINE -->
+          <h4 style="color:#6c63ff;">
+            ⚡ Turning logic into scalable systems & production-ready impact
+          </h4>
+
+          <!-- SOCIAL -->
+          <ul class="social-links">
+            <li><a href="https://github.com/AntimaDwivedi" target="_blank"><img src="assets/github.png"></a></li>
+            <li><a href="https://www.linkedin.com/in/antima-dwivedi-69a79a1aa/" target="_blank"><img src="assets/linkedin.png"></a></li>
+            <li><a href="https://twitter.com/DwivediAntima" target="_blank"><img src="assets/twitter.png"></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE (NAVBAR) -->
+      <div class="col-md-6 col-xs-12">
         <nav>
           <div id="menu-toggle">
             <div class="hamburger">
@@ -26,7 +58,12 @@
               <span class="line"></span>
               <span class="line"></span>
             </div>
+            <div class="cross">
+              <span class="line"></span>
+              <span class="line"></span>
+            </div>
           </div>
+
           <ul class="main-nav">
             <li><a href="#home">Home</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -34,201 +71,352 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
-
-        <div class="hero-text">
-          <h2>Hi 👋 I'm Antima Dwivedi</h2>
-          <h3>Backend Developer | Java | Spring Boot | REST APIs</h3>
-          <p>
-            I build scalable backend systems powering real-world applications, 
-            with strong experience in API development and solving production-level challenges.
-          </p>
-
-          <!-- FIXED: ul not inside p -->
-          <ul class="social-links">
-            <li><a href="https://github.com/AntimaDwivedi" target="_blank"><img src="assets/github.png"></a></li>
-            <li><a href="https://www.linkedin.com/in/antima-dwivedi-69a79a1aa/" target="_blank"><img src="assets/linkedin.png"></a></li>
-          </ul>
-        </div>
-
       </div>
+
     </div>
   </div>
 </header>
 
-<br/>
+      <section class="case-study">
+  <div class="container text-center">
 
-<!-- FIXED SECTION -->
-<section class="case-study" id="skills">
-  <div class="container">
+    <h1 class="heading purple">
+      <span class="purple">Technologies I Work With ⚡</span>
+    </h1>
+
     <div class="row">
-      <div class="col-md-12">
 
-        <h1 class="heading purple">
-          <span class="purple">Building Scalable Systems with These Technologies 🚀</span>
-        </h1>
+      <!-- JAVA (HIGHLIGHTED) -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="tech-circle main-tech">Java</div>
+      </div>
 
-        <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="tech-circle main-tech">Spring</div>
+      </div>
 
-          <!-- BACKEND FIRST -->
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".80">
-              <div></div>
-              <h6 class="progress-title"><b>Java</b></h6>
-            </div>
+      <!-- BACKEND CORE -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="tech-circle">SQL</div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="tech-circle">Redis</div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="tech-circle">RabbitMQ</div>
+      </div>
+
+      <!-- DEV TOOLS -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="tech-circle">Git</div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="tech-circle">Postman</div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="tech-circle">Jenkins</div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="tech-circle">GCP</div>
+      </div>
+
+      <!-- SUPPORTING (ML BACKGROUND) -->
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="tech-circle secondary">Python</div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="tech-circle secondary">ML</div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-2">
+        <div class="tech-circle secondary">Django</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+    <br/>
+    <br/>
+  <section class="about-section section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="heading">
+            <br />
+            <h3><b>About me</b></h3>
+            <h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
+            <img src="assets/Antima_Profile_Pic.jpg" width="180" height="200" class= "imageAboutPage" alt="">
+            <a href="https://www.persistent.com/" target="_blank"><h4 style="color: purple;"><b><u>Persistent Systems</u></b></h4></a>
+            <h5 class="font-yellow"><b>Software Engineer</b></h5>
+            <h6 class="margin-t-10">October 2021-Current</h6>
           </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".70">
-              <div></div>
-              <h6 class="progress-title"><b>Spring Boot</b></h6>
+        </div><!-- col-sm-4 -->
+        <div class="col-sm-8">
+          
+          <br />
+          <br />
+          <p class="margin-b-50">• As a vital member of a dynamic client environment, my role encompasses the comprehensive management of
+        diverse multimedia content, spanning videos, audios, thumbnails, and subtitles, within the framework of an OTT streaming platform.<br>
+• Responsible for the end-to-end process of developing, testing, and deploying various backend APIs tailored for video
+   transcoding for Subtitle Vendors, Ad management, and promotional campaigns. This involved leveraging frameworks such as Spring Boot and Django to ensure robust and efficient functionality. <br>
+• Meticulously diagnosing and rectifying numerous production issues on video streaming, content delivery, and infrastructure scalability, ensuring seamless operation and optimal performance.<br>
+• Contributed to a team initiative aimed at migrating from Cloudinary thumbnail URLs to Akamai thumbnail URLs. This transition was undertaken to streamline image optimization tools and mitigate expenses. <br>
+</p> 
+          <hr></hr>
+          <div class="row mt-3">
+            <div class="col-md-6">
+                <ul class="social-links">
+                    <li><h3><b>Articles Contributed 📝</b></h3></li>
+                    <br>
+                    <li><a href="https://auth.geeksforgeeks.org/user/antimadwivedi28/articles/" target="_blank"><img src="assets/Geeksforgeeks.png"></a></li>
+                  </ul>     
             </div>
+            <div class="col-md-6">
+              <h3><b>Acedmic Background 📚</b></h3>
+              <ul type="disc">
+                  <li>👩‍🎓 Bachelor of technology-<b>8.4/10</b></li>
+                  <li>🏫Intermediate-<b>8.8/10</b></li>
+                  <li>👯High School-<b>8.1/10</b></li>
+                </ul>
+        
+                  
           </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".75">
-              <div></div>
-              <h6 class="progress-title"><b>SQL</b></h6>
-            </div>
+      <div class="col-md-6">
+              <h3><b>Awards and Recognition 🏆</b></h3>
+                  <ul type=class="social-links">
+             <li><a href="https://drive.google.com/file/d/1dzlozVZmapsUmm5sV0Jm-tyQ3G-zjgTY/view?usp=sharing"target="_blank">Persistent Bravo Award<img src="assets/Persistent System.png"width="40" height="40" ></a></li>
+                  <li><a href="https://drive.google.com/file/d/1t2pA5i9Gxko7ArwkzbXJkY-jh2YfKqhw/view?usp=sharing"target="_blank">Capgemini Tech Challenge<img src="assets/Capgemini.png" width="75" height="40"></a></li>      
+                  </ul> 
+        
+                  
           </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".70">
-              <div></div>
-              <h6 class="progress-title"><b>Rabbit MQ</b></h6>
-            </div>
-          </div>
-
-          <!-- MID -->
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".68">
-              <div></div>
-              <h6 class="progress-title"><b>Redis</b></h6>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".60">
-              <div></div>
-              <h6 class="progress-title"><b>GCP</b></h6>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".60">
-              <div></div>
-              <h6 class="progress-title"><b>Jenkins</b></h6>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".75">
-              <div></div>
-              <h6 class="progress-title"><b>Postman</b></h6>
-            </div>
-          </div>
-
-          <!-- TOOLS -->
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".80">
-              <div></div>
-              <h6 class="progress-title"><b>Git</b></h6>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".80">
-              <div></div>
-              <h6 class="progress-title"><b>Apache Maven</b></h6>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".80">
-              <div></div>
-              <h6 class="progress-title"><b>Ubuntu OS</b></h6>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".80">
-              <div></div>
-              <h6 class="progress-title"><b>Grafana</b></h6>
-            </div>
-          </div>
-
-          <!-- LOW PRIORITY -->
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".80">
-              <div></div>
-              <h6 class="progress-title"><b>Python</b></h6>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".80">
-              <div></div>
-              <h6 class="progress-title"><b>Machine Learning</b></h6>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3">
-            <div class="radial-progress" data-prog-percent=".80">
-              <div></div>
-              <h6 class="progress-title"><b>Django</b></h6>
-            </div>
-          </div>
-
+  <div class="col-md-6">
+              <h3><b>Certification 🎓</b></h3>
+              <ul type="disc">
+                  <li><a href="https://www.credential.net/6a1192b7-52df-4ef5-86ab-76d84d099b66" target="_blank">Google Cloud Digital Leader</a></li>      
+            <li><a href="https://certificates.mooc.fi/validate/u2dyfbksx" target="_blank">Elements of AI</li>
+      <li><a href="https://drive.google.com/file/d/1ACTWiVCpHArTIGseV-BJqRE6fFSn5Q9g/view?usp=sharing" target="_blank">30 days with  AI </a></li>
+      <li><a href="https://drive.google.com/file/d/1lpY9VkRccwC4YdfJDJ-NqvjQQDtzJnEE/view?usp=sharing" target="_blank">Python Intern at TCSiON</a></li> 
+          
+                </ul>
+                  
+          </div>    
+            
         </div>
-      </div>
-    </div>
   </div>
-</section>
+  </section><!-- about-section -->
+  </section>
+      <!-- Statistics -->
 
-<br/>
 
-<!-- FIXED ABOUT SECTION -->
-<section class="about-section section" id="about">
-  <div class="container">
-    <div class="row">
+<br>
+  <br>
+  <br>
+        
+   <br>
+<br>
+  
+    <section class="case-study" id="projects">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="heading purple"><span class="purple"></span>Projects</h1>
+              <!-- Swiper -->
+              <div class="swiper-container client-swiper">
+                <div class="swiper-wrapper">
+      <div class="swiper-slide client-box">
+                    <img src="assets/Drowsy.jpg">
+                    <h3 class="text-left title">Accident Prone Situation Prediction of Vehicle Using Machine Learning Approaches</h3>
+                    <p class="text-left tag"><br>The project proposes a model that can warn the driver whether the car cabin is prone to accidents or not.</p>
+                    <p class="text-left"><a href="https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches">Know More &#8594;</a></p>
+                  </div>  
+                  <div class="swiper-slide client-box">
+                    <img src="assets/bookflix.jpg">
+                    <h3 class="text-left title">BOOKFLIX</h3>
+                    <p class="text-left tag">Online Book Store to read and listen to books without worrying  to carry  them out with you always.</p>
+                    <p class="text-left"><a href="https://github.com/AntimaDwivedi/BOOKFLIX">Know More &#8594;</a></p>
+                  </div>
+                  <div class="swiper-slide client-box">
+                    <img src="assets/snake.jpg">
+                    <h3 class="text-left title">CaterViper</h3>
+                    <p class="text-left tag">This is a snake game that you must have played as a child👶. An egg 🍎 is generated randomly in matrix space. The task of the player is to choose the safest path for feeding the egg to the snake.<br></p>
+                    <p class="text-left"><a href="https://github.com/AntimaDwivedi/CaterViper">Know More &#8594;</a></p>
+                  </div>
+                     
+                  <div class="swiper-slide client-box">
+                    <img src="assets/Emoticon.jpg">
+                    <h3 class="text-left title">Emotion Detector</h3>
+                    <p class="text-left tag">Developed an Algorithm to automate the detection of different emotions from textual comments and feedback.</p>
+                    <p class="text-left"><a href="https://github.com/AntimaDwivedi/Internship">Know More &#8594;</a></p>
+                  </div>
+                  <div class="swiper-slide client-box">
+                    <img src="assets/Optical.jfif">
+                    <h3 class="text-left title">Optical Character Reader</h3>
+                    <p class="text-left tag">optical character reader🔍 is the electronic conversion of handwritten or printed text 📄
+                    into machine-encoded text.
+                    </p>
+                    <p class="text-left"><a href="https://github.com/AntimaDwivedi/Optical-Character-Reader">Know More &#8594;</a></p>
+                  </div>
+                </div>
 
-      <div class="col-sm-8">
-        <p class="margin-b-50">
-          • Backend Developer working on OTT streaming platforms.<br><br>
-          • Developed scalable REST APIs using Spring Boot.<br><br>
-          • Solved real production issues in streaming systems.<br><br>
-          • Improved performance via Akamai migration.<br>
-        </p>
-      </div>
+              </div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    </div>
-  </div>
-</section>
+  <br/>     
+      <section class="stats">
+        <div class="container">
+          <div class="row">
+          
+            <div class="col-md-4 text-center stat-box">
+              <h1 class="purple"><span class="">10</span>K</h1>
+              <h3>Lines of code committed in production</h3>
+            </div>
+            <div class="col-md-4 text-center stat-box">
+              <h1 class="pink"><span class="">50</span>K</h1>
+              <h3>Cups of Coffee Intake</h3>
+            </div>
+            <div class="col-md-4 text-center stat-box">
+              <h1 class="blue"><span class="">100</span>K</h1>
+              <h3>Songs heard</h3>
+            </div>
+            
+          </div>
+        </div>
+      </section>
 
-<br/>
+      <!-- Footer -->
+      <footer>
+        <div class="container-fluid" id="contact">
+          <div class="row footer">
+            <div class="col-md-12 text-center">
+              
+              <ul class="social-links">
+                <li><a href="https://github.com/AntimaDwivedi" target="_blank"><img src="assets/github.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/antima-dwivedi-69a79a1aa//" target="_blank"><img src="assets/linkedin.png"></a></li>    
+                <li><a href="https://twitter.com/DwivediAntima" target="_blank"><img src="assets/twitter.png"></a></li>
+<!--                 <li><a href="https://instagram.com/antima_dwivedi7/"target="_blank"><img src="assets/instagram.png"></a></li> -->
+                <br>
+                <li><h4 class="purple"><b>By failing to prepare, you are preparing to fail.</b></h4></li>
+                <br>
+                <li><h4 class="purple"><b>                      ~Benjamin Franklin</b></h4></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row sub-footer">
 
-<!-- STATS -->
-<section class="stats">
-  <div class="container">
-    <div class="row">
+          </div>
+        </div>
+      </footer>
 
-      <div class="col-md-4 text-center stat-box">
-        <h1 class="purple"><span>10</span>K</h1>
-        <h3>Lines Powering Production Systems 🚀</h3>
-      </div>
+      <!-- Some Javascript -->
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/jquery.counterup.min.js"></script>
+      <script src="js/progressbar.min.js"></script>
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="js/swiper.jquery.min.js"></script>
+      <script src="js/scripts.js"></script>
+      <!-- Initialize Client Swiper -->
+      <script>
+      var swiper1 = new Swiper('.client-swiper', {
+        slidesPerView: 3,
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 60,
+        // Responsive breakpoints
+        breakpoints: {
+          // when window width is <= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: '.swiper-pagination'
+          },
+          // when window width is <= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 20
+          },
+          // when window width is <= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 30
+          }
+        }
+      });
+      // Initialize Testimonial Swiper
+      var swiper2 = new Swiper('.testimonial-swiper', {
+        slidesPerView: 3,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        freeMode: true,
+        breakpoints: {
+          // when window width is <= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          // when window width is <= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          },
+          // when window width is <= 640px
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          }
+        }
+      });
+      </script>
+      <script>
+      // Counterup
+      $('.counter').counterUp({
+        time: 1000
+      });
 
-      <div class="col-md-4 text-center stat-box">
-        <h1 class="pink"><span>50</span>K</h1>
-        <h3>Cups of Coffee Intake</h3>
-      </div>
+      // Main Navigation
+      $('#menu-toggle').click(function(){
+        $(this).toggleClass('open'),
+        $('.main-nav').toggleClass('show-it');
+      })
+      </script>
 
-      <div class="col-md-4 text-center stat-box">
-        <h1 class="blue"><span>100</span>K</h1>
-        <h3>Songs heard</h3>
-      </div>
+      <!-- Google Analytics - You should remove this -->
+      <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    </div>
-  </div>
-</section>
+      ga('create', 'UA-29231762-2', 'auto');
+      ga('send', 'pageview');
 
-</body>
-</html>
+      </script>
+      <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
+
+    </body>
+    </html>
+
+
+
+
+
+ 
